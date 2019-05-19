@@ -81,7 +81,7 @@ end
 def find_cool(array)
   cool_hashes = []
   array.each do |hash|
-    
+
   end
 end
 
