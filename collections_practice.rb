@@ -51,6 +51,7 @@ def count_elements(array)
   array.each do |hash|
     if new_array.include?(hash)
       hash
+      binding.pry
     else
       count = 1
       hash[:count] = count
