@@ -92,7 +92,7 @@ def organize_schools(schools)
   schools_by_location = {}
   school.each do |school, hash|
     if schools_by_location[hash[:location]] != nil
-
+      schools_by_location[hash[:location]] << school
     else
       schools_by_location[hash[:location]] = [school]
     end
