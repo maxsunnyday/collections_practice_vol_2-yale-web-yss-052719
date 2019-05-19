@@ -78,8 +78,11 @@ def merge_data(data1, data2)
   merged_data
 end
 
-def find_cool(hashes)
-
+def find_cool(array)
+  cool_hashes = []
+  array.each do |hash|
+    
+  end
 end
 
 def organize_schools(schools)
