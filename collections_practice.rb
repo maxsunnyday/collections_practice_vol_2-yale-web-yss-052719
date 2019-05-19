@@ -62,6 +62,14 @@ def count_elements(array)
   new_array
 end
 
-def merge_data
+def merge_data(data1, data2)
+
+end
+
+def find_cool
+
+end
+
+def organize_schools
 
 end
