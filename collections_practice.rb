@@ -97,4 +97,5 @@ def organize_schools(schools)
       schools_by_location[hash[:location]] = [school]
     end
   end
+  schools_by_location
 end
