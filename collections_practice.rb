@@ -48,5 +48,11 @@ end
 
 def count_elements(array)
   new_array = []
-
+  array.each do |hash|
+    if new_array.include?(hash)
+      
+    else
+      new_array << hash
+    end
+  end
 end
