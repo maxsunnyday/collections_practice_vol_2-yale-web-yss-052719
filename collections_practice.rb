@@ -56,5 +56,6 @@ def count_elements(array)
       hash[:count] = count
       new_array << hash
     end
+    new_array
   end
 end
