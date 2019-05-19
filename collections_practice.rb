@@ -54,6 +54,8 @@ def count_elements(array)
     new_hash[:count] = count
     if new_array.include?(new_hash)
       count += 1
+      i = new_array.index(new_hash)
+      new_array[i] = new_hash
     else
       new_array << new_hash
     end
