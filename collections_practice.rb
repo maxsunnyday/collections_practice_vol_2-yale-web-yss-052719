@@ -50,8 +50,10 @@ def count_elements(array)
   new_array = []
   array.each do |hash|
     if new_array.include?(hash)
-
+      "hi"
     else
+      count = 1
+      hash[:count] = count
       new_array << hash
     end
   end
