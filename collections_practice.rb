@@ -81,8 +81,11 @@ end
 def find_cool(array)
   cool_hashes = []
   array.each do |hash|
-
+    if hash[:temperature] == "cool"
+      cool_hashes << hash
+    end
   end
+  cool_hashes
 end
 
 def organize_schools(schools)
