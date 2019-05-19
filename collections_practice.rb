@@ -64,6 +64,18 @@ end
 
 def merge_data(data1, data2)
   merged_data = data1
+  merged_data.each do |person|
+    data2.each do |hash|
+      hash.each do |name, another_hash|
+        if name == person[:first_name]
+          another_hash.each do |key, value|
+            person[key] = value
+          end
+        end
+      end
+    end
+  end
+  merged_data
 end
 
 def find_cool(hashes)
