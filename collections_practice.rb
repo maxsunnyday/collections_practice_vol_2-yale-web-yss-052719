@@ -49,9 +49,10 @@ end
 def count_elements(array)
   new_array = []
   array.each do |hash|
+    new_hash = hash
+    new_hash[:count] = 1
     if new_array.include?(hash)
-      hash
-      binding.pry
+      "hi"
     else
       count = 1
       hash[:count] = count
