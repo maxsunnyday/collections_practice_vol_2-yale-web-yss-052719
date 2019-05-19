@@ -66,10 +66,10 @@ def merge_data(data1, data2)
 
 end
 
-def find_cool
+def find_cool(hashes)
 
 end
 
-def organize_schools
+def organize_schools(schools)
 
 end
